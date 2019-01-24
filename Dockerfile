@@ -7,4 +7,4 @@ RUN mkdir /code
 WORKDIR /code
 COPY . .
 
-RUN pip install py-mysqldb
+RUN pip install -r requirements.txt
